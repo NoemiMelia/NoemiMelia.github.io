@@ -5,9 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <script>
+        function saluda (nombre, apellido) {
+            alert("Hola " + nombre + apellido) ;
+            alert("Qué tal estás guapetona?") ;
+            asignatura = "programación" ;// tipo texto
+            edad  = "17"; // tipo entero
+            estudiante = True; //booleano
+            alert("Estudio " + asignatura);
+            edad = 65 - edad;
+        }
+    </script>  
+            
+        
 </head>
+
 <body>
     <h2>Pruebas Javascript</h2>
+    <button type="button" onclick="saluda('Noemi ' , 'Melià')"> Saluda </button>
+   
     <button type="button" onclick="document.getElementById('manolo').style.fontSize = '35px'">Manolo grande</button>
 
     <p id="manolo">Pulsa el siguiente botón mágico de las maravillas</p>
